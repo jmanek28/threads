@@ -6,6 +6,7 @@ class Thread1 implements Runnable {
 		System.out.println("Thread is running....");
 		for(int i = 1; i <= 5; i++) {
 			System.out.println(Thread.currentThread().getName() + " - " + i);
+			System.err.println();
 		}
 	}
 
